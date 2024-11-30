@@ -7,13 +7,22 @@
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
-\bibitem[1]{Brownlee.2020}
+\bibitem[1]{Atwan.2022}
+\textsc{Atwan}, T.~A.:
+\newblock \emph{{TIME SERIES ANALYSIS WITH PYTHON COOKBOOK: Practical recipes
+  for exploratory data analysis, data preparation, forecasting, and model
+  evaluation}}.
+\newblock {PACKT PUBLISHING LIMITED}
+  \url{https://learning.oreilly.com/library/view/-/9781801075541/?ar}. --
+\newblock ISBN 978--1801075541
+
+\bibitem[2]{Brownlee.2020}
 \textsc{Brownlee}, J. :
 \newblock \emph{{Data Preparation for Machine Learning: Data Cleaning, Feature
   Selection, and Data Transforms in Python}}
   \url{https://books.google.com/books?hl=en&lr=&id=uAPuDwAAQBAJ&oi=fnd&pg=PP1&dq=+Machine+Learning+Data+Preparation&ots=Cl6LscgNoX&sig=U4FadKC2XWMUxnpqRg6oAcpFjQg}
 
-\bibitem[2]{Ege.2021b}
+\bibitem[3]{Ege.2021b}
 \textsc{Ege}, B. :
 \newblock {Einblick in die Welt der k{\"u}nstlichen Intelligenz}.
 \newblock \,Version:\,2021.
@@ -25,7 +34,13 @@
 \newblock DOI 10.1007/978--3--658--31938--0{\textunderscore }1. --
 \newblock ISBN 978--3--658--31937--3, S. 1--17
 
-\bibitem[3]{Montgomery.2015}
+\bibitem[4]{BalancoLigue180.2020}
+\textsc{{Minist{\'e}rio da Mulher, da Fam{\'i}lia e dos Direitos Humanos}}:
+\newblock \emph{{Balan{\c{c}}o 2019: Ligue 180 - Central de Atendimento {\`a}
+  Mulher}}.
+\newblock Bras{\'i}lia/DF, Brasil,
+
+\bibitem[5]{Montgomery.2015}
 \textsc{Montgomery}, D.~C. ; \textsc{Jennings}, C.~L.  ; \textsc{Kulahci}, M. :
 \newblock \emph{{Introduction to time series analysis and forecasting}}.
 \newblock Second edition.
@@ -33,7 +48,13 @@
   statistics}). --
 \newblock ISBN 978--1--118--74511--3
 
-\bibitem[4]{Walker.2024}
+\bibitem[6]{BalancoLigue180.2015}
+\textsc{{Secretaria de Pol{\'i}ticas para as Mulheres}}:
+\newblock \emph{{Balan{\c{c}}o 2014: Ligue 180 - Central de Atendimento {\`a}
+  Mulher}}.
+\newblock Bras{\'i}lia/DF, Brasil,
+
+\bibitem[7]{Walker.2024}
 \textsc{Walker}, M. :
 \newblock \emph{{Python data cleaning cookbook: Prepare your data for analysis
   with pandas, NumPy, Matplotlib, scikit-learn and OpenAI}}.
@@ -43,7 +64,7 @@
   --
 \newblock ISBN 978--1--80323--987--3
 
-\bibitem[5]{Zheng.2018}
+\bibitem[8]{Zheng.2018}
 \textsc{Zheng}, A.  ; \textsc{Casari}, A. :
 \newblock \emph{{Feature engineering for machine learning: Principles and
   techniques for data scientists}}.

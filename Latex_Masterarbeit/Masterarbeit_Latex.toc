@@ -20,8 +20,8 @@
 \contentsline {section}{\numberline {3.2}Datenauswahl}{3}{section.3.2}%
 \contentsline {subsubsection}{Time Prediction Analysis}{4}{section*.10}%
 \contentsline {subsubsection}{Umgang mit Fehlenden Daten}{5}{section*.11}%
-\contentsline {subsubsection}{Clusteranalyse von Nutzungsgruppen}{5}{section*.12}%
-\contentsline {subsection}{\numberline {3.2.1}Feature Vorbereitung}{5}{subsection.3.2.1}%
+\contentsline {subsubsection}{Clusteranalyse von Nutzungsgruppen}{6}{section*.12}%
+\contentsline {subsection}{\numberline {3.2.1}Feature Vorbereitung}{6}{subsection.3.2.1}%
 \contentsline {subsubsection}{H1}{6}{section*.13}%
 \contentsline {subsection}{\numberline {3.2.2}Feature Auswahl}{6}{subsection.3.2.2}%
 \contentsline {subsubsection}{H1}{6}{section*.14}%

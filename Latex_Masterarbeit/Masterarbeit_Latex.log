@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.10.17)  22 OCT 2024 13:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.10.17)  20 NOV 2024 10:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -726,7 +726,7 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'ngerman'.
-LaTeX Font Info:    Trying to load font information for T1+aer on input line 30
+LaTeX Font Info:    Trying to load font information for T1+aer on input line 29
 .
  (C:\Users\ChiaraVogt\AppData\Local\Programs\MiKTeX\tex/latex/ae\t1aer.fd
 File: t1aer.fd 1997/11/16 Font definitions for T1/aer.
@@ -739,24 +739,24 @@ File: l3backend-pdftex.def 2023-10-10 L3 backend support: PDF output (pdfTeX)
 ) (Masterarbeit_Latex.aux)
 \openout1 = `Masterarbeit_Latex.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
 
 (C:\Users\ChiaraVogt\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-p
 df.mkii
@@ -825,27 +825,27 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 30.
+Package hyperref Info: Link coloring OFF on input line 29.
 (Masterarbeit_Latex.out) (Masterarbeit_Latex.out)
 \@outlinefile=\write4
 \openout4 = `Masterarbeit_Latex.out'.
 
 LaTeX Font Info:    Trying to load font information for T1+aess on input line 3
-2.
+1.
 
 (C:\Users\ChiaraVogt\AppData\Local\Programs\MiKTeX\tex/latex/ae\t1aess.fd
 File: t1aess.fd 1997/11/16 Font definitions for T1/aess.
 )
 LaTeX Font Info:    Font shape `T1/aess/b/n' in size <12> not available
-(Font)              Font shape `T1/aess/bx/n' tried instead on input line 32.
+(Font)              Font shape `T1/aess/bx/n' tried instead on input line 31.
 LaTeX Font Info:    Font shape `T1/aess/b/n' in size <24.88> not available
-(Font)              Font shape `T1/aess/bx/n' tried instead on input line 32.
+(Font)              Font shape `T1/aess/bx/n' tried instead on input line 31.
 LaTeX Font Info:    Font shape `T1/aess/b/n' in size <14.4> not available
-(Font)              Font shape `T1/aess/bx/n' tried instead on input line 32.
+(Font)              Font shape `T1/aess/bx/n' tried instead on input line 31.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <17.28> on input line 32.
+(Font)              <17.28> on input line 31.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 32.
+(Font)              <12> on input line 31.
 
 [1
 
@@ -885,9 +885,9 @@ Overfull \hbox (3.95448pt too wide) detected at line 5
 \openout7 = `Masterarbeit_Latex.lot'.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 67.
+(Font)              <7> on input line 66.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 67.
+(Font)              <5> on input line 66.
  [9
 
 ]
@@ -898,7 +898,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 ]
 Kapitel 1.
 
-Underfull \hbox (badness 10000) in paragraph at lines 121--122
+Underfull \hbox (badness 10000) in paragraph at lines 120--121
 
  []
 
@@ -907,7 +907,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.124 	\chapter
+l.123 	\chapter
                {Grundlagen} [1
 
 
@@ -918,30 +918,30 @@ Kapitel 2.
 ]
 Kapitel 3.
 LaTeX Font Info:    Trying to load font information for T1+aett on input line 1
-34.
+33.
 (C:\Users\ChiaraVogt\AppData\Local\Programs\MiKTeX\tex/latex/ae\t1aett.fd
 File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 134--134
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
 [][][]\T1/aer/m/n/10 Quelle der Da-ten: []$\T1/aett/m/n/10 https : / / www . go
 v . br / mdh / pt-[]br / acesso-[]a-[]informacao / dados-[]abertos /
  []
 
 
-Overfull \hbox (12.15509pt too wide) in paragraph at lines 138--138
+Overfull \hbox (12.15509pt too wide) in paragraph at lines 137--137
 [][][][]$\T1/aett/m/n/10 https : / / dados . gov . br / dados / conjuntos-[]dad
 os / central-[]de-[]atendimento-[]a-[]mulher-[]-[]ligue-[]180$[]
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 146.
+(Font)              <10.95> on input line 145.
 
-Overfull \hbox (251.36198pt too wide) in paragraph at lines 146--202
+Overfull \hbox (251.36198pt too wide) in paragraph at lines 145--201
  [][] 
  []
 
 
-LaTeX Warning: Float too large for page by 54.7045pt on input line 204.
+LaTeX Warning: Float too large for page by 54.7045pt on input line 203.
 
 [3
 
@@ -949,7 +949,7 @@ LaTeX Warning: Float too large for page by 54.7045pt on input line 204.
 <screenshot001.png, id=339, 499.8675pt x 413.29407pt>
 File: screenshot001.png Graphic file (type png)
 <use screenshot001.png>
-Package pdftex.def Info: screenshot001.png  used on input line 221.
+Package pdftex.def Info: screenshot001.png  used on input line 220.
 (pdftex.def)             Requested size: 318.66948pt x 263.48566pt.
 <screenshot003.png, id=341, 1785.67125pt x 330.48468pt>
 File: screenshot003.png Graphic file (type png)
@@ -966,15 +966,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [4 <./screenshot001.png>]
-<screenshot002.png, id=348, 1792.44656pt x 352.31625pt>
+<screenshot002.png, id=351, 1792.44656pt x 352.31625pt>
 File: screenshot002.png Graphic file (type png)
 <use screenshot002.png>
-Package pdftex.def Info: screenshot002.png  used on input line 254.
+Package pdftex.def Info: screenshot002.png  used on input line 257.
 (pdftex.def)             Requested size: 455.24411pt x 89.47658pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 266--273
-
- []
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -985,17 +981,22 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [5 <./screenshot003.png> <./screenshot002.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 300--301
+Underfull \hbox (badness 10000) in paragraph at lines 269--276
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 303--304
 
  []
 
 LaTeX Font Info:    Trying to load font information for TS1+aer on input line 3
-09.
-LaTeX Font Info:    No file TS1aer.fd. on input line 309.
+12.
+LaTeX Font Info:    No file TS1aer.fd. on input line 312.
 
 LaTeX Font Warning: Font shape `TS1/aer/m/n' undefined
 (Font)              using `TS1/cmr/m/n' instead
-(Font)              for symbol `textbullet' on input line 309.
+(Font)              for symbol `textbullet' on input line 312.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1035,14 +1036,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [9]
 Kapitel 4.
 
-Underfull \hbox (badness 10000) in paragraph at lines 342--343
+Underfull \hbox (badness 10000) in paragraph at lines 345--346
 
  []
 
 [10
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 358--364
+Underfull \hbox (badness 10000) in paragraph at lines 361--367
 
  []
 
@@ -1068,7 +1069,7 @@ Kapitel 5.
 [13
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 390--393
+Underfull \hbox (badness 10000) in paragraph at lines 393--396
 
  []
 
@@ -1100,7 +1101,7 @@ Kapitel 9.
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 11--15
+Underfull \hbox (badness 10000) in paragraph at lines 20--24
 \T1/aett/m/n/12 hl = en & lr = &id = uAPuDwAAQBAJ & oi = fnd & pg = PP1 & dq = 
 +Machine + Learning + Data +
  []
@@ -1116,7 +1117,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.II}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.442 \end{document}
+l.445 \end{document}
                      [2
 
 ] (Masterarbeit_Latex.aux)
@@ -1132,10 +1133,10 @@ Package rerunfilecheck Info: File `Masterarbeit_Latex.out' has not changed.
 (rerunfilecheck)             Checksum: 3E07F00FA09804C2F72B89D66025EE83;6723.
  ) 
 Here is how much of TeX's memory you used:
- 23519 strings out of 474823
- 440582 string characters out of 5748595
+ 23525 strings out of 474823
+ 441223 string characters out of 5748595
  1949043 words of memory out of 5000000
- 44876 multiletter control sequences out of 15000+600000
+ 44879 multiletter control sequences out of 15000+600000
  611124 words of font info for 126 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,11n,107p,944b,794s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1162,9 +1163,9 @@ eX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/ChiaraVogt/AppData/Local
 rs/ChiaraVogt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt
 10.pfb><C:/Users/ChiaraVogt/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
 sfonts/cm/cmtt12.pfb>
-Output written on Masterarbeit_Latex.pdf (33 pages, 521012 bytes).
+Output written on Masterarbeit_Latex.pdf (33 pages, 530016 bytes).
 PDF statistics:
- 589 PDF objects out of 1000 (max. 8388607)
- 114 named destinations out of 1000 (max. 500000)
+ 598 PDF objects out of 1000 (max. 8388607)
+ 117 named destinations out of 1000 (max. 500000)
  388 words of extra memory for PDF output out of 10000 (max. 10000000)
 

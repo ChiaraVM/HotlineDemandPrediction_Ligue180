@@ -1,5 +1,4 @@
 \documentclass[12pt]{report}
-
 \usepackage[ngerman]{babel}
 \usepackage[utf8]{inputenc}
 %\usepackage[familydefault,light]{Chivo}
@@ -224,21 +223,22 @@
 	\end{figure}
 	\subsubsection{Umgang mit Fehlenden Daten}
 	%TODO Diagramm mit fehlenden Daten einfügen
-	Die fehlende Uhrzeit in der Zeitreihe mit stündlichen Daten ergibt insgesamt sechs Monate fehlender Daten in 2020. 
-	\begin {table} [ht]%TODO Tabelle hübsch machen
+	\textit{Fehlende Daten in hourly\_call\_volume}\\	
+	Die fehlende Uhrzeit in der Zeitreihe mit stündlichen Daten ergibt insgesamt sechs Monate fehlender Daten in 2020. \\
+	\begin {table} [ht]%TODO Tabelle hübsch machen\\
 	\label{tab:fehlende-tage} 
 	\centering
-		\begin{tabular}{|l|l|}
-			\hline
-			2020-01-31  & 31\\
-			2020-02-29  & 29\\
-			2020-03-31  & 31\\
-			2020-04-30  & 30\\
-			2020-05-31  & 31\\
-			2020-06-30  & 30\\
-			\hline
-		\end{tabular}
-		\caption {Should be a caption} %TODO
+	\begin{tabular}{|l|l|}
+		\hline
+		2020-01-31  & 31\\
+		2020-02-29  & 29\\
+		2020-03-31  & 31\\
+		2020-04-30  & 30\\
+		2020-05-31  & 31\\
+		2020-06-30  & 30\\
+		\hline
+	\end{tabular}
+	\caption {Should be a caption} %TODO
 	\end {table}
 	%TODO Umgang damit, dass so eine große Lücke ist
 	\begin{figure}
@@ -247,16 +247,19 @@
 		\caption{}
 		\label{fig:screenshot003}
 	\end{figure}
+	\textit{Fehlende Daten in daily\_calls}\\
+	Im Datensatz daily\_calls verzeichnen 45 Tage keine Anrufe. Diese sind in einem Block vom 26. Januar 2014 bis 03. April 2014 (37 Tage) zu finden und in einem zweiten Block vom 24. Dezember 2019 bis 31. Dezember 2019 (8 Tage). Da die Nullwerte jeweils als Block vorzufinden sind, ist es wahrscheinlicher, dass fälschlicherweise keine Daten erhoben wurden bzw. in dem online verfügbaren Datensatz nicht vorhanden sind. Weniger wahrscheinlich ist, dass in diesen Zeiträumen keine Anzeigen stattfanden; insbesondere für den zweiten Block, der Weihnachten und Silvester umspannt. Vorherige Forschungsergebnisse %TODO Quellen und Erklärung vielleicht als Fußnote
+	haben gezeigt, dass gerade Familienfeiern zu einem Anstieg häuslicher Gewalt führen. Außerdem finden sich Zusammenfassungen mit Statistiken zu diesem Datensatz, hier werden Zahlen zu der allgemeinen Menge an Anrufen gezeigt, z.B. einem Anrufvolumen in 2014 von 1.348 pro Tag und 40.425 Gespräche pro Monat \cite[S. 5]{BalancoLigue180.2015}Aus dem Bericht lässt sich keine konkrete Zahl von Anzeigen pro Monat oder pro Tag ableiten, jedoch zeigen die Zahlen, dass es nicht der Fall ist, dass in den Zeiträumen keine Anzeigen getätigt wurden\cite{BalancoLigue180.2015, BalancoLigue180.2020}. \\
+	Deshalb ist es wahrscheinlich, dass es in diesen Zeiträumen Anrufe gab %TODO und im Folgenden werden nach \cite{Atwan.2022} verschiedene Methoden ausprobiert, um die passendste Auffüllmethode zu wählen.
 	
-	Umgang in df\_daily:\\
-	- Nullwerte für df\_daily sind 1,5 Monate in März 2014 und 8 Tage im \begin{figure}
+ \begin{figure}
 		\centering
 		\includegraphics[width=1\linewidth]{screenshot002}
 		\caption{}
 		\label{fig:screenshot002}
 	\end{figure}
 	Dezember 2019
-	Nullwerte für märz 2019: Daten sind für den Monat vorhanden im Balanco 2019, warum diese Daten nicht in der Statistik sind ist nicht klar.
+	Nullwerte für März 2019: Daten sind für den Monat vorhanden im Balanco 2019, warum diese Daten nicht in der Statistik sind ist nicht klar.
 	Dezember ist auffällig weil es vom 24. bis 31. ist: einerseits Vermutung, dass da besonders viele Anrufe sind wegen Feiertage, Alkohol, Familienstreit aka nicht null. Deswegen kann ich mir nicht vorstellen, dass die zu hatten. Vielleicht haben sie aber keine Anzeigen aufgenommen, aber dann funktionieren auch die Schutzmaßnahmen nicht. 
 	
 	%TODO Recherche warum an diesen Tagen keine Anrufe waren und umliegende DAten anschauen

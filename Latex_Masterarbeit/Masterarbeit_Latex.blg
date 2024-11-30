@@ -11,45 +11,47 @@ Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Database file #1: Literatur.bib
 Warning--empty publisher in Brownlee.2020
-You've used 5 entries,
+Warning--empty year in BalancoLigue180.2020
+Warning--empty year in BalancoLigue180.2015
+You've used 8 entries,
             4332 wiz_defined-function locations,
-            871 strings with 7229 characters,
-and the built_in function-call counts, 3467 in all, are:
-= -- 360
-> -- 59
-< -- 62
-+ -- 69
-- -- 20
-* -- 263
-:= -- 554
-add.period$ -- 10
-call.type$ -- 5
-change.case$ -- 18
+            889 strings with 7899 characters,
+and the built_in function-call counts, 4500 in all, are:
+= -- 462
+> -- 80
+< -- 73
++ -- 85
+- -- 27
+* -- 328
+:= -- 741
+add.period$ -- 13
+call.type$ -- 8
+change.case$ -- 27
 chr.to.int$ -- 0
-cite$ -- 6
-duplicate$ -- 81
-empty$ -- 326
-format.name$ -- 38
-if$ -- 760
+cite$ -- 11
+duplicate$ -- 112
+empty$ -- 418
+format.name$ -- 50
+if$ -- 980
 int.to.chr$ -- 0
-int.to.str$ -- 5
-missing$ -- 19
-newline$ -- 45
-num.names$ -- 11
-pop$ -- 32
+int.to.str$ -- 8
+missing$ -- 31
+newline$ -- 61
+num.names$ -- 17
+pop$ -- 49
 preamble$ -- 1
-purify$ -- 18
+purify$ -- 27
 quote$ -- 0
-skip$ -- 104
+skip$ -- 137
 stack$ -- 0
-substring$ -- 431
-swap$ -- 21
-text.length$ -- 16
+substring$ -- 512
+swap$ -- 28
+text.length$ -- 20
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 12
-warning$ -- 1
-while$ -- 28
-width$ -- 6
-write$ -- 86
-(There was 1 warning)
+type$ -- 22
+warning$ -- 3
+while$ -- 38
+width$ -- 9
+write$ -- 122
+(There were 3 warnings)
