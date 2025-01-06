@@ -118,6 +118,7 @@
 	\section{Gliederung der Arbeit}
 	\subsection{Forecasting der Anrufquote}
 	Die Arbeit wird drei Themenbereiche abdecken und die Analyse des Datensatzes dabei jeweils um eine Komponente erweitern. Der erste Teil der Analyse betrachtet die Menge der Anrufe, und hat zum Ziel vorherzusagen, wann wie viele Anrufe getätigt werden, um eine ausreichende Deckung der Hotline sicherzustellen. Dafür werden die Methoden der Time Series Analysis und des Forecasting genutzt. \\
+	Auf deutsch nennt sich der Bereich der Methode Entwicklungsprognose oder Zeitreihenanalyse und gehört zu dem Bereich der quantitativen Prognosetechniken \cite[S. 11]{Vogel.2015}.
 	\subsection{Clusteranalyse der Nutzer:innengruppen}
 	\subsection{Raumcluster und Zusammenhänge}
 	\chapter{Grundlagen} 
@@ -364,7 +365,27 @@
 	%*Analyse welchen Zeitraum man weshalb genommen hat
 	Ein weiterer Teil der vorbereitenden Analyse sind die Berechnung der statistischen Kennzahlen, wie Sample Mean, Standardabweichung, Perzentile und Autokorrelationen.\\ %siehe Chapter 2 in Montgomery.2015
 	Ebenfalls ist es sinnvoll potenzielle Ausreißer festzuhalten, um sie später auf ihre Passbarkeit zu prüfen. Diese Vorbereitungen sind wichtig um ein Gefühl für die Daten zu bekommen und die Ergebnisse besser einordnen zu können \cite[15]{Montgomery.2015}.\\
-	\subsection{Modellvergleich}
+	
+	\chapter{Vergleich der Zeitreihenvorhersagemodelle}
+	\section{SARIMA Modell}
+	Das SARIMA-Modell vereint verschiedene Vorhersagemethoden miteinander. Das Modell besteht aus den Komponenten:
+	\begin{itemize}
+		\item S - Seasonal
+		\item AR - Autoregressive Model
+		\item I - Integrated
+		\item MA - Moving Average Model
+	\subsection{Bestandteile des Modells}
+	
+	\subsubsection{Autoregressives Modell}
+	Die Prognose durch ein Autoregressionsmodell wird durch die vorangegangenen Werte bestimmt. Die Variablen der Zeitreihe werden gegen sich selbst regressiert. Das kann mit folgender mathematischer Formel für alle autoregressiven Modelle \textbf{AR($p$) model} der Ordnung $p$ dargestellt werden:\\
+	$y_{t} = c + \phi_{1}y_{t-1} + \phi_{2}y_{t-2} + \dots + \phi_{p}y_{t-p} + \varepsilon_{t}$.\\
+	Darin ist $y_{t}$ die Zeitreihe, $c$ ist der Durchschnitt der Veränderung von aufeinanderfolgenden Werten und $\varepsilon_{t}$ bezeichnet das weiße Rauschen \cite[Kapitel 8.1, 8.3]{Hyndman.May2018}.\\
+	Autoregressive Modelle verlangen stationäre Daten. 
+	\subsubsection{Moving Average Modell}
+	In diesem Modell werden nicht die vergangenen Werten für die Vorhersage genutzt, sondern die vergangenen Vorhersagefehler mithilfe des gleitenden Durchschnits (Moving Average)\cite[Kapitel 8.4]{Hyndman.May2018}. Das Modell \textbf{MA($q$) model} wird mit folgender Formel dargestellt:\\
+	$y_{t} = c + \varepsilon_t + \theta_{1}\varepsilon_{t-1} + \theta_{2}\varepsilon_{t-2} + \dots + \theta_{q}\varepsilon_{t-q}$
+	
+	\end{itemize}
 	
 	\chapter{Methodik} %TODO jemand hat das Unterteilt in Entwurf, Implementierung und Evaluierung
 	\section{Defining Modelling Objective}

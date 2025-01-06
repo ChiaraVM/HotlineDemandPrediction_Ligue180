@@ -13,45 +13,45 @@ Database file #1: Literatur.bib
 Warning--empty publisher in Brownlee.2020
 Warning--empty year in BalancoLigue180.2020
 Warning--empty year in BalancoLigue180.2015
-You've used 8 entries,
+You've used 9 entries,
             4332 wiz_defined-function locations,
-            889 strings with 7899 characters,
-and the built_in function-call counts, 4500 in all, are:
-= -- 462
-> -- 80
-< -- 73
-+ -- 85
-- -- 27
-* -- 328
-:= -- 741
-add.period$ -- 13
-call.type$ -- 8
-change.case$ -- 27
+            896 strings with 7935 characters,
+and the built_in function-call counts, 5103 in all, are:
+= -- 518
+> -- 93
+< -- 84
++ -- 98
+- -- 31
+* -- 373
+:= -- 838
+add.period$ -- 15
+call.type$ -- 9
+change.case$ -- 31
 chr.to.int$ -- 0
-cite$ -- 11
-duplicate$ -- 112
-empty$ -- 418
-format.name$ -- 50
-if$ -- 980
+cite$ -- 12
+duplicate$ -- 128
+empty$ -- 476
+format.name$ -- 58
+if$ -- 1109
 int.to.chr$ -- 0
-int.to.str$ -- 8
-missing$ -- 31
-newline$ -- 61
-num.names$ -- 17
-pop$ -- 49
+int.to.str$ -- 9
+missing$ -- 35
+newline$ -- 68
+num.names$ -- 19
+pop$ -- 56
 preamble$ -- 1
-purify$ -- 27
+purify$ -- 31
 quote$ -- 0
-skip$ -- 137
+skip$ -- 159
 stack$ -- 0
-substring$ -- 512
-swap$ -- 28
-text.length$ -- 20
+substring$ -- 581
+swap$ -- 32
+text.length$ -- 23
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 22
+type$ -- 24
 warning$ -- 3
-while$ -- 38
-width$ -- 9
-write$ -- 122
+while$ -- 43
+width$ -- 10
+write$ -- 136
 (There were 3 warnings)

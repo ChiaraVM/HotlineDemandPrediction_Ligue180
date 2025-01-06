@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.10.17)  20 NOV 2024 10:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.10.17)  6 JAN 2025 17:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -898,16 +898,11 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 ]
 Kapitel 1.
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--121
-
- []
-
-
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.123 	\chapter
+l.124 	\chapter
                {Grundlagen} [1
 
 
@@ -918,43 +913,43 @@ Kapitel 2.
 ]
 Kapitel 3.
 LaTeX Font Info:    Trying to load font information for T1+aett on input line 1
-33.
+34.
 (C:\Users\ChiaraVogt\AppData\Local\Programs\MiKTeX\tex/latex/ae\t1aett.fd
 File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
+Underfull \hbox (badness 10000) in paragraph at lines 134--134
 [][][]\T1/aer/m/n/10 Quelle der Da-ten: []$\T1/aett/m/n/10 https : / / www . go
 v . br / mdh / pt-[]br / acesso-[]a-[]informacao / dados-[]abertos /
  []
 
 
-Overfull \hbox (12.15509pt too wide) in paragraph at lines 137--137
+Overfull \hbox (12.15509pt too wide) in paragraph at lines 138--138
 [][][][]$\T1/aett/m/n/10 https : / / dados . gov . br / dados / conjuntos-[]dad
 os / central-[]de-[]atendimento-[]a-[]mulher-[]-[]ligue-[]180$[]
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 145.
+(Font)              <10.95> on input line 146.
 
-Overfull \hbox (251.36198pt too wide) in paragraph at lines 145--201
+Overfull \hbox (251.36198pt too wide) in paragraph at lines 146--202
  [][] 
  []
 
 
-LaTeX Warning: Float too large for page by 54.7045pt on input line 203.
+LaTeX Warning: Float too large for page by 54.7045pt on input line 204.
 
 [3
 
 ]
-<screenshot001.png, id=339, 499.8675pt x 413.29407pt>
+<screenshot001.png, id=351, 499.8675pt x 413.29407pt>
 File: screenshot001.png Graphic file (type png)
 <use screenshot001.png>
-Package pdftex.def Info: screenshot001.png  used on input line 220.
+Package pdftex.def Info: screenshot001.png  used on input line 221.
 (pdftex.def)             Requested size: 318.66948pt x 263.48566pt.
-<screenshot003.png, id=341, 1785.67125pt x 330.48468pt>
+<screenshot003.png, id=353, 1785.67125pt x 330.48468pt>
 File: screenshot003.png Graphic file (type png)
 <use screenshot003.png>
-Package pdftex.def Info: screenshot003.png  used on input line 246.
+Package pdftex.def Info: screenshot003.png  used on input line 247.
 (pdftex.def)             Requested size: 455.24411pt x 84.25482pt.
 
 
@@ -966,10 +961,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [4 <./screenshot001.png>]
-<screenshot002.png, id=351, 1792.44656pt x 352.31625pt>
+<screenshot002.png, id=363, 1792.44656pt x 352.31625pt>
 File: screenshot002.png Graphic file (type png)
 <use screenshot002.png>
-Package pdftex.def Info: screenshot002.png  used on input line 257.
+Package pdftex.def Info: screenshot002.png  used on input line 258.
 (pdftex.def)             Requested size: 455.24411pt x 89.47658pt.
 
 
@@ -981,22 +976,22 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [5 <./screenshot003.png> <./screenshot002.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 269--276
+Underfull \hbox (badness 10000) in paragraph at lines 270--277
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 303--304
+Underfull \hbox (badness 10000) in paragraph at lines 304--305
 
  []
 
 LaTeX Font Info:    Trying to load font information for TS1+aer on input line 3
-12.
-LaTeX Font Info:    No file TS1aer.fd. on input line 312.
+13.
+LaTeX Font Info:    No file TS1aer.fd. on input line 313.
 
 LaTeX Font Warning: Font shape `TS1/aer/m/n' undefined
 (Font)              using `TS1/cmr/m/n' instead
-(Font)              for symbol `textbullet' on input line 312.
+(Font)              for symbol `textbullet' on input line 313.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1036,14 +1031,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [9]
 Kapitel 4.
 
-Underfull \hbox (badness 10000) in paragraph at lines 345--346
+Underfull \hbox (badness 10000) in paragraph at lines 346--347
 
  []
 
 [10
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 361--367
+Underfull \hbox (badness 10000) in paragraph at lines 362--368
 
  []
 
@@ -1069,10 +1064,6 @@ Kapitel 5.
 [13
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 393--396
-
- []
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1086,29 +1077,55 @@ Kapitel 6.
 [15
 
 ]
-Kapitel 7.
-[16
+Underfull \hbox (badness 10000) in paragraph at lines 414--417
 
-]
-Kapitel 8.
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[16]
+Kapitel 7.
 [17
 
 ]
-Kapitel 9.
+Kapitel 8.
 [18
 
-] (Masterarbeit_Latex.bbl [19
+]
+Kapitel 9.
+[19
+
+]
+Kapitel 10.
+[20
+
+] (Masterarbeit_Latex.bbl [21
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 20--24
+Underfull \hbox (badness 10000) in paragraph at lines 11--15
 \T1/aett/m/n/12 hl = en & lr = &id = uAPuDwAAQBAJ & oi = fnd & pg = PP1 & dq = 
 +Machine + Learning + Data +
  []
 
-) [20
+[22
 
-]
+])
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[23]
 Anhang A.
 [1
 
@@ -1117,7 +1134,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.II}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.445 \end{document}
+l.466 \end{document}
                      [2
 
 ] (Masterarbeit_Latex.aux)
@@ -1130,16 +1147,16 @@ L3 programming layer <2023-10-10>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `Masterarbeit_Latex.out' has not changed.
-(rerunfilecheck)             Checksum: 3E07F00FA09804C2F72B89D66025EE83;6723.
+(rerunfilecheck)             Checksum: E5CD2405292519354D25809F8BB04D0C;7154.
  ) 
 Here is how much of TeX's memory you used:
- 23525 strings out of 474823
- 441223 string characters out of 5748595
+ 23536 strings out of 474823
+ 441349 string characters out of 5748595
  1949043 words of memory out of 5000000
- 44879 multiletter control sequences out of 15000+600000
+ 44882 multiletter control sequences out of 15000+600000
  611124 words of font info for 126 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,11n,107p,944b,794s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 108i,11n,107p,944b,769s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\ChiaraVogt\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600
 \tcrm1200.pk><C:/Users/ChiaraVogt/AppData/Local/Programs/MiKTeX/fonts/type1/pub
 lic/amsfonts/cm/cmb10.pfb><C:/Users/ChiaraVogt/AppData/Local/Programs/MiKTeX/fo
@@ -1157,15 +1174,16 @@ hiaraVogt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb
 ><C:/Users/ChiaraVogt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
 /cm/cmssbx10.pfb><C:/Users/ChiaraVogt/AppData/Local/Programs/MiKTeX/fonts/type1
 /public/amsfonts/cm/cmsy10.pfb><C:/Users/ChiaraVogt/AppData/Local/Programs/MiKT
-eX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/ChiaraVogt/AppData/Local
-/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/ChiaraVogt
-/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti8.pfb><C:/Use
-rs/ChiaraVogt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt
-10.pfb><C:/Users/ChiaraVogt/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
-sfonts/cm/cmtt12.pfb>
-Output written on Masterarbeit_Latex.pdf (33 pages, 530016 bytes).
+eX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/ChiaraVogt/AppData/Local/
+Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/ChiaraVogt/
+AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Use
+rs/ChiaraVogt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti
+8.pfb><C:/Users/ChiaraVogt/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmtt10.pfb><C:/Users/ChiaraVogt/AppData/Local/Programs/MiKTeX/fonts/ty
+pe1/public/amsfonts/cm/cmtt12.pfb>
+Output written on Masterarbeit_Latex.pdf (36 pages, 546451 bytes).
 PDF statistics:
- 598 PDF objects out of 1000 (max. 8388607)
- 117 named destinations out of 1000 (max. 500000)
- 388 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 630 PDF objects out of 1000 (max. 8388607)
+ 125 named destinations out of 1000 (max. 500000)
+ 404 words of extra memory for PDF output out of 10000 (max. 10000000)
 

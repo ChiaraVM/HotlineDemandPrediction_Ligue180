@@ -37,22 +37,26 @@
 \contentsline {subsubsection}{Representativeness}{11}{section*.18}%
 \contentsline {subsubsection}{Consistency}{11}{section*.19}%
 \contentsline {subsection}{\numberline {4.3.2}Data Analysis}{11}{subsection.4.3.2}%
-\contentsline {subsection}{\numberline {4.3.3}Modellvergleich}{12}{subsection.4.3.3}%
-\contentsline {chapter}{\numberline {5}Methodik}{13}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Defining Modelling Objective}{13}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Datenvorverarbeitung}{13}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}Vorverarbeitungsschritte}{13}{subsection.5.2.1}%
-\contentsline {subsubsection}{Unterteilung der Daten in Trainings und Testdaten}{14}{section*.20}%
-\contentsline {subsubsection}{Grundlagen der Datenbereinigung}{14}{section*.21}%
-\contentsline {section}{\numberline {5.3}Auswertungsmethoden}{14}{section.5.3}%
-\contentsline {chapter}{\numberline {6}Results}{15}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Structure Learning}{15}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Auswertungskriterien}{15}{section.6.2}%
-\contentsline {chapter}{\numberline {7}Discussion}{16}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Preparation of Data}{16}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Structure Learning}{16}{section.7.2}%
-\contentsline {section}{\numberline {7.3}Auswertungskriterien}{16}{section.7.3}%
-\contentsline {chapter}{\numberline {8}Limitations}{17}{chapter.8}%
-\contentsline {chapter}{\numberline {9}Conclusion}{18}{chapter.9}%
-\contentsline {section}{Bibliography}{19}{chapter*.22}%
+\contentsline {chapter}{\numberline {5}Vergleich der Zeitreihenvorhersagemodelle}{13}{chapter.5}%
+\contentsline {section}{\numberline {5.1}SARIMA Modell}{13}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Bestandteile des Modells}{13}{subsection.5.1.1}%
+\contentsline {subsubsection}{Autoregressives Modell}{13}{section*.20}%
+\contentsline {subsubsection}{Moving Average Modell}{14}{section*.21}%
+\contentsline {chapter}{\numberline {6}Methodik}{15}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Defining Modelling Objective}{15}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Datenvorverarbeitung}{15}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Vorverarbeitungsschritte}{15}{subsection.6.2.1}%
+\contentsline {subsubsection}{Unterteilung der Daten in Trainings und Testdaten}{16}{section*.22}%
+\contentsline {subsubsection}{Grundlagen der Datenbereinigung}{16}{section*.23}%
+\contentsline {section}{\numberline {6.3}Auswertungsmethoden}{16}{section.6.3}%
+\contentsline {chapter}{\numberline {7}Results}{17}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Structure Learning}{17}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Auswertungskriterien}{17}{section.7.2}%
+\contentsline {chapter}{\numberline {8}Discussion}{18}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Preparation of Data}{18}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Structure Learning}{18}{section.8.2}%
+\contentsline {section}{\numberline {8.3}Auswertungskriterien}{18}{section.8.3}%
+\contentsline {chapter}{\numberline {9}Limitations}{19}{chapter.9}%
+\contentsline {chapter}{\numberline {10}Conclusion}{20}{chapter.10}%
+\contentsline {section}{Bibliography}{21}{chapter*.24}%
 \contentsline {chapter}{\numberline {A}Appendix}{I}{appendix.A}%
