@@ -124,6 +124,7 @@
 	\section{Gliederung der Arbeit}
 	\subsection{Forecasting der Anrufquote}
 	Die Arbeit wird drei Themenbereiche abdecken und die Analyse des Datensatzes dabei jeweils um eine Komponente erweitern. Der erste Teil der Analyse betrachtet die Menge der Anrufe, und hat zum Ziel vorherzusagen, wann wie viele Anrufe getätigt werden, um eine ausreichende Deckung der Hotline sicherzustellen. Dafür werden die Methoden der Time Series Analysis und des Forecasting genutzt. \\
+	Auf deutsch nennt sich der Bereich der Methode Entwicklungsprognose oder Zeitreihenanalyse und gehört zu dem Bereich der quantitativen Prognosetechniken \cite[S. 11]{Vogel.2015}.
 	\subsection{Clusteranalyse der Nutzer:innengruppen}
 	\subsection{Raumcluster und Zusammenhänge}
 	\chapter{Grundlagen} 
@@ -400,7 +401,84 @@
 	%*Analyse welchen Zeitraum man weshalb genommen hat
 	Ein weiterer Teil der vorbereitenden Analyse sind die Berechnung der statistischen Kennzahlen, wie Sample Mean, Standardabweichung, Perzentile und Autokorrelationen.\\ %siehe Chapter 2 in Montgomery.2015
 	Ebenfalls ist es sinnvoll potenzielle Ausreißer festzuhalten, um sie später auf ihre Passbarkeit zu prüfen. Diese Vorbereitungen sind wichtig um ein Gefühl für die Daten zu bekommen und die Ergebnisse besser einordnen zu können \cite[15]{Montgomery.2015}.\\
-	\subsection{Modellvergleich}
+	
+	\chapter{Vergleich der Zeitreihenvorhersagemodelle}
+	Das SARIMA (Seasonal AutoRegressive Integrated Moving Average) Modell setzt sich aus 4 Bestandteilen zusammen. Diese sind das Autoregressive Model, das Moving Average Model, deren Integration und die saisonale Komponente. Diese vier Bestandteile werden im folgenden Abschnitt erläutert.
+	\section{SARIMA Modell}
+	Das SARIMA-Modell vereint verschiedene Vorhersagemethoden miteinander. Das Modell besteht aus den Komponenten:
+	\begin{itemize}
+		\item S - Seasonal
+		\item AR - Autoregressive Model
+		\item I - Integrated
+		\item MA - Moving Average Model
+	\end{itemize}
+	\subsection{Anwendungsbereich}
+	
+	\subsection{Bestandteile des Modells}
+	\subsubsection{Autoregressives Modell}
+	Die Prognose durch ein Autoregressionsmodell wird durch die vorangegangenen Werte bestimmt. Die Variablen der Zeitreihe werden gegen sich selbst regressiert. Das kann mit folgender mathematischer Formel für alle autoregressiven Modelle \textbf{AR($p$) model} der Ordnung $p$ dargestellt werden:\\
+	\begin{equation}
+	y_{t} = c + \phi_{1}y_{t-1} + \phi_{2}y_{t-2} + \dots + \phi_{p}y_{t-p} + \varepsilon_{t}
+	\end{equation} 
+	Darin ist $y_{t}$ die Zeitreihe, $c$ ist der Durchschnitt der Veränderung von aufeinanderfolgenden Werten und $\varepsilon_{t}$ bezeichnet das weiße Rauschen \cite[Kapitel 8.1, 8.3]{Hyndman.May2018}.\\
+	Autoregressive Modelle verlangen stationäre Daten. 
+	\subsubsection{Moving Average Modell}
+	In diesem Modell werden nicht die vergangenen Werten für die Vorhersage genutzt, sondern die vergangenen Vorhersagefehler mithilfe des gleitenden Durchschnits (Moving Average)\cite[Kapitel 8.4]{Hyndman.May2018}. Das Modell \textbf{MA($q$) model} wird mit folgender Formel dargestellt:\\
+	\begin{equation}
+		y_{t} = c + \varepsilon_t + \theta_{1}\varepsilon_{t-1} + \theta_{2}\varepsilon_{t-2} + \dots + \theta_{q}\varepsilon_{t-q}
+	\end{equation}
+	\subsubsection{Non-Seasonal ARIMA Modell}
+	Das nicht saisonale ARIMA (AutoRegressive Integrated Moving Average) Modell ist die Kombination des AR und des MA Modells. Integration stellt hier das Gegenteil von Differenzierung dar \cite[Kapitel 8.5]{Hyndman.May2018}. Das ARIMA Modell wird mit folgender Formel beschrieben:
+	\begin{equation}
+		y'_{t} = c + \phi_{1}y'_{t-1} + \cdots + \phi_{p}y'_{t-p} + \theta_{1}\varepsilon_{t-1} + \cdots + \theta_{q}\varepsilon_{t-q} + \varepsilon_{t}
+	\end{equation}
+	Das \textbf{ARIMA($p,d,q$) model} hat die Parameter
+	\begin{itemize}
+		\item $p$ = Ordnung des autoregressiven Teils;
+		\item $d$ = Grad der ersten Differenzenbildung;
+		\item $q$ =	Ordnung des Teils des gleitenden Durchschnitts.
+	\end{itemize}
+	\subsubsection{Seasonal ARIMA Modell}
+	Es ist möglich dem ARIMA Modell eine saisonale Komponente hinzuzufügen. Die saisonale Komponente wird durch einen weiteren Term in Großbuchstaben beschrieben. 
+	Das Modell wird beschrieben mit:	
+	\begin{equation}
+		ARIMA (p, d, q) (P, D, Q)_m
+	\end{equation}
+	Der Parameter $m$ bezeichnet die Anzahl der Beobachtungen pro Jahr. Der Autor \cite[Kapitel 8.9]{Hyndman.May2018} benennt das Beispiel von ARIMA(1,1,1)(1,1,1)4, das die Formel 
+	\begin{equation}
+		(1 - \phi_{1}B)~(1 - \Phi_{1}B^{4}) (1 - B) (1 - B^{4})y_{t} =
+		(1 + \theta_{1}B)~ (1 + \Theta_{1}B^{4})\varepsilon_{t}
+	\end{equation}
+	herbeiführt. Daran kann erkannt werden, dass die neu hinzugefügten saisonalen Terme mit den bestehenden Termen multipliziert werden. 
+	
+	\subsection{Voraussetzungen des Modells}
+	Damit ein Datensatz in ein SARIMA Modell verarbeitet werden kann, muss dieser das Kriterium der Stationarität erfüllen. 
+	\subsubsection{Stationarität}
+	Stationarität bezeichnet die Eigenschaft, dass die Eigenschaften einer Zeitreihe, wie Mittelwert und Varianz über die Zeit konstant bleiben \cite[S. 26]{Vogel.2015}.
+	Folgende drei Eigenschaften müssen erfüllt sein, damit ein Prozess als stationär (oder schwach stationär) bezeichnet werden kann:
+	\begin{enumerate}
+		\item \(\mu(t) =: \mu\) (der Mittelwert) hängt nicht von der Zeit \(t\) ab.
+		\item \(\sigma^2(t) =: \sigma^2\) (die Varianz) hängt nicht von der Zeit \(t\) ab.
+		\item \(\gamma(t_1, t_2) =: \gamma(t_2 - t_1)\) (die Autokovarianz) hängt nur von der Zeitdifferenz \(t_2 - t_1\) ab \cite[S. 26]{Vogel.2015}.
+	\end{enumerate}
+	\textbf{Definition}: Erfüllt ein stochastischer Prozess 2. Ordnung die Eigenschaften (1) bis (3), so heißt er schwach stationär \cite[S. 26]{Vogel.2015}. \\
+	Der Mittelwert $\mu$ der Datenreihe verändert sich nicht, somit hat die Datenreihe keine Trends, also über die Zeit fallende oder steigende Werte. \\
+	Die Varianz $\sigma^2$ bezeichnet die Entfernung der Werte um den Mittelwert (Streuung der Werte); auch diese bleibt konstant.\\
+	Die Autokovarianz $\gamma(t_1, t_2)$ beschreibt den Zusammenhang zwischen zwei Werten in der Zeitreihe. Bei einer stationären Zeitreihe darf dieser Zusammenhang nur durch die Zeitdifferenz bestimmt werden \cite[S. 26]{Vogel.2015}. 
+	Eine stationäre Zeitreihe sollte also zu jedem Zeitpunkt ähnlich aussehen. Jedoch kann eine solche Zeitreihe auch zyklische Muster haben, die aber keinem Trend folgen \cite[Kapitel 8.1]{Hyndman.May2018}.	
+	\subsection{Auswahl der Parameter}
+	Die Parameter $p, d, q$ und $P, D, Q$ sowie $m$ müssen ausgewählt werden, um das beste SARIMA Modell zu erstellen. 
+	
+	\subsubsection{Autocorrelation Function ACF und Partial Autocorrelation Function PACF}
+	Für die Bestimmung der Parameter sind zwei Funktionen hilfreich: die Autocorrelation Function (ACF) und Partial Autocorrelation Function (PACF). Aus einer Zeitreihe ist es meist nicht möglich die Autokorrelation einer Zeitreihe herauszulesen, mithilfe der ACF und PACF-Plots kann das jedoch gelingen \cite[Kapitel 8.5]{Hyndman.May2018}. \\
+	In einem ACF-Plot wird die Autokorrelation dargestellt, indem die Beziehung von $y_t$ zu $y_{t-k}$ entlang der Reihe von $k$ gezeigt wird. Damit die 
+	
+	\subsection{Bewertung und Überarbeitung des Modells}%TODO Das ist sicher für alle Modelle gleich -> anderes Kapitel
+	
+	\section{Hyperparameteroptimization}
+	Fast alle Vorhersagemethoden braucht von außen festgelegte Parameter, um geeignete Vorhersagen zu modellieren. Diese festgelegten Parameter sind Hyperparameter. Um die zu finden, können verschiedene Methoden der Hyperparameteroptimierung angewendet werden. Klassischerweise wird dafür die Gittersuche (Gridsearch), die zufällige Suche (Random Search), die bayesische Optimierung oder durch Expertise und heuristische Annäherung händisch ausgewählte Parameter. 
+	\subsubsection{Heuristische Annäherung an passende Parameter}
+	\subsubsection{Optuna}
 	
 	\chapter{Methodik} %TODO jemand hat das Unterteilt in Entwurf, Implementierung und Evaluierung
 	\section{Defining Modelling Objective}
