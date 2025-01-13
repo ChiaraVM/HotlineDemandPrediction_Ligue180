@@ -112,6 +112,12 @@
 	
 	\chapter{Einleitung}
 	
+	Warum ist das wichtig?
+	Strategiepapier der Lei raussuchen, wo steht "dass die Profissionais geschult werden müssen"
+	Deswegen sinnvoll erstmal zu suchen wofür sensibilisert werden soll. 
+	Warum diese Methode?
+	
+	
 	\section{Potenzial der Prediction Models für} %TODO Wofür steht diese Arbeit besipielhaft?
 	\section{Fragestellung}
 	Im nächsten Abschnitt wird erläutert, welche Schwerpunkte die Analyse des Datensatzes \textit{Ligue 180} beinhaltet. In Form von Forschungsfragen und Hypothesen leiten diese inhaltlich durch die Arbeit. 
@@ -126,12 +132,28 @@
 	\section{Erwartete Ergebnisse}
 	\chapter{Vorbereitung der Daten}
 	\section{Der 'Ligue 180'-Datensatz}
-	%TODO herausfinden, ob der Datensatz nur die Anzeigen speichert 
+	\subsection{Eckdaten der Hotline 'Ligue 180' anhand des Jahres 2019}
+	Der Datensatz zeigt die Menge an Anzeigen die über die Hotline  'Ligue 180' gestellt wurden. 	Die Telefonhotline 'Ligue 180' ist eine kostenlose Hotline, welche über Telefon sowie über Messenger und eine Website verfügbar ist. Sie ist der Hauptkanal zwischen dem Ministerium für Frauen, Familie und Menschenrechte\footnote{auf Portugiesisch: \textit{Ministério da Mulher, da Família e dos Direitos Humanos}} und der Bevölkerung \cite[S. 12]{BalancoLigue180.2020}. Die Nummer kann anonym gewählt werden und das Personal besteht ausschließlich aus Frauen.\\
+	Die Telefonhotline hat die Aufgaben:
+	\begin{itemize}
+		\item Anzeigen von Verletzungen von Frauenrechten aufzunehmen,
+		\item der Weiterleitung der Anliegen an die zuständigen Stellen,
+		\item das Monitoring der Prozesse,
+		\item Frauen in Gewaltsituationen zu beraten und
+		\item diese Frauen an spezialisierte Einrichtungen weiterzuleiten,
+		\item Verbreitung von Informationen über die Rechte der Frauen,
+		\item Beratung über Aktionen, Programme, Kampagnen, Dienste zum Schutz, zur Verteidigung und zur Rechenschaftslegung der Rechte der Frauen, die auf Bundes-, Landes- und Gemeindeebene zur Verfügung stehen \cite[S. 12, 19]{BalancoLigue180.2020}.
+	\end{itemize} 
+	
+	Aus dem Report der Hotline für 2019 ist zu entnehmen, dass für das Jahr 2019 96\% der Anrufe in unter 20 Sekunden angenommen werden konnten. Im Durchschnitt gab es eine Wartezeit von 4 Sekunden in der Warteschlange und die Anrufdauer betrug im Durchschnitt 220 Sekunden. Nur 1,91\% der Anrufenden brachen den Anruf vor der Beantwortung des Anrufs ab \cite[S. 12]{BalancoLigue180.2020}.\\
+	Die abgefragten Informationen wurden im Juli 2019 aktualisiert und mit dem Formular FRIDA ( Formulário de Avaliação de Risco e Proteção à Vida) standardisiert \cite[S. 13]{BalancoLigue180.2020}.\\
+	In 2019 wurden insgesamt 1.314.113 Anrufe angenommen, davon waren 6,50\% registrierte Anzeigen, 47,91\% Informationsanfragen und 45,59\% sonstige Anfragen, wie Lob, Anregungen, Beschwerden oder Streiche \cite[S. 14]{BalancoLigue180.2020}.\\
+	Die Hotline kann auch aus dem Ausland angerufen werden; die Anrufe werden auf Portugiesisch, Englisch und Spanisch entgegengenommen \cite[S. 15]{BalancoLigue180.2020}. 
 	%TODO noch was zu der Verteilung sagen im Vergleich zu allen Anrufen
 	%TODO und zu der Entwicklung des Datensatzes
-	
+	\subsection{Der verwendete Datensatz}
 	Die Daten sind aus einem durch die brasilianische Regierung zur Verfügung gestellten Datensatz des Ministeriums für Menschen- und Bürgerrecht\footnote{Übersetzung: Ministério dos Direitos Humanos e da Cidadania, URL: \url{https://www.gov.br/mdh/pt-br}, zuletzt aufgerufen am: 30.09.2024, 15:01 Uhr}. Der Datensatz beinhaltet die Meldungen von Gewalt gegen Frauen,  die bei der Hotline 'Ligue 180' eingegangen sind. Er besteht aus 17 einzelnen Datensätzen und erstreckt sich über die Jahre 2014 bis zum ersten Halbjahr 2024\footnote{Quelle der Daten: \url{https://www.gov.br/mdh/pt-br/acesso-a-informacao/dados-abertos/ligue180} und /url{https://dados.gov.br/dados/conjuntos-dados/central-de-atendimento-a-mulher--ligue-180} (aufgerufen am 02.10.2024, 07:08 Uhr).}. %TODO: das ist keine Fußnote sondern muss in die Quellen!--beides\\
-	%TODO Relatorio lesen und als Quelle einfügen, wichtige Punkte rausarbeiten
+	%TODO Balanco lesen und als Quelle einfügen, wichtige Punkte rausarbeiten
 	Insgesamt enthalten alle Datensätze zusammen 2.406.112 Einträge; ab 2020 hat der Datensatz die gleiche Struktur und ergibt 1.681.161 Einträge mit 62 Kategorien. Diese Menge an Daten ist selbst bei einer großen Anzahl ungültiger Werte ausreichend für die maschinelle Verarbeitung.\\
 	Durch das brasilianische Gesetz des Zugangs zu Informationen 12.527\footnote{\url{http://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm} %TODO als Quelle
 	(aufgerufen am 02.10.2024, 08:41 Uhr)} werden Leitlinien festgesetzt, die den Zugang zu staatlich erhobenen Daten ermöglichen. Dadurch kann auf den Datensatz 'Central de Atendimento à Mulher – Ligue 180' über das \textit{Portal der offenen Daten} zugegriffen werden\footnote{\url{https://dados.gov.br/dados/conjuntos-dados/central-de-atendimento-a-mulher--ligue-180} (aufgerufen am 02.10.2024, 08:48 Uhr)}.
@@ -323,6 +345,20 @@
 	\chapter{Explorative Datenanalyse}
 	Im folgenden Kapitel wird Anhand der Methoden in \cite{Walker.2024} %TODO Quellen
 	erforscht, in welchem Zusammenhang die Daten miteinander stehen. 
+	\section{Datenanalyse zu für H1 verwendeten Daten}
+	\begin{figure}
+		\centering
+		\includegraphics[width=1\linewidth]{calls_daily}
+		\caption[Menge der Anzeigen pro Tag von 2014 bis 2023]{Menge der aufgegebenen Anzeigen über die Hotline 'Ligue 180' von 2014 bis 2023}
+		\label{fig:callsdaily}
+	\end{figure}
+	\begin{figure}
+		\centering
+		\includegraphics[width=1\linewidth]{calls_hourly}
+		\caption[Menge der Anzeigen pro Tag von 2014 bis 2023]{Menge der aufgegebenen Anzeigen über die Hotline 'Ligue 180' von 2014 bis 2023}
+		\label{fig:callshourly}
+	\end{figure}
+	
 	\section{Datenmenge}
 	Erste Fragen zu dem Datensatz aus \cite[S.77f.]{Walker.2024}.
 	Die kleinste Einheit im Datensatz, also der unique identifier: hash
