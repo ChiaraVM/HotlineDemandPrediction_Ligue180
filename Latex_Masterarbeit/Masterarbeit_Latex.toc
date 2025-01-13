@@ -39,24 +39,35 @@
 \contentsline {subsection}{\numberline {4.3.2}Data Analysis}{11}{subsection.4.3.2}%
 \contentsline {chapter}{\numberline {5}Vergleich der Zeitreihenvorhersagemodelle}{13}{chapter.5}%
 \contentsline {section}{\numberline {5.1}SARIMA Modell}{13}{section.5.1}%
-\contentsline {subsection}{\numberline {5.1.1}Bestandteile des Modells}{13}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.1}Anwendungsbereich}{13}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Bestandteile des Modells}{13}{subsection.5.1.2}%
 \contentsline {subsubsection}{Autoregressives Modell}{13}{section*.20}%
 \contentsline {subsubsection}{Moving Average Modell}{14}{section*.21}%
-\contentsline {chapter}{\numberline {6}Methodik}{15}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Defining Modelling Objective}{15}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Datenvorverarbeitung}{15}{section.6.2}%
-\contentsline {subsection}{\numberline {6.2.1}Vorverarbeitungsschritte}{15}{subsection.6.2.1}%
-\contentsline {subsubsection}{Unterteilung der Daten in Trainings und Testdaten}{16}{section*.22}%
-\contentsline {subsubsection}{Grundlagen der Datenbereinigung}{16}{section*.23}%
-\contentsline {section}{\numberline {6.3}Auswertungsmethoden}{16}{section.6.3}%
-\contentsline {chapter}{\numberline {7}Results}{17}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Structure Learning}{17}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Auswertungskriterien}{17}{section.7.2}%
-\contentsline {chapter}{\numberline {8}Discussion}{18}{chapter.8}%
-\contentsline {section}{\numberline {8.1}Preparation of Data}{18}{section.8.1}%
-\contentsline {section}{\numberline {8.2}Structure Learning}{18}{section.8.2}%
-\contentsline {section}{\numberline {8.3}Auswertungskriterien}{18}{section.8.3}%
-\contentsline {chapter}{\numberline {9}Limitations}{19}{chapter.9}%
-\contentsline {chapter}{\numberline {10}Conclusion}{20}{chapter.10}%
-\contentsline {section}{Bibliography}{21}{chapter*.24}%
+\contentsline {subsubsection}{Non-Seasonal ARIMA Modell}{14}{section*.22}%
+\contentsline {subsubsection}{Seasonal ARIMA Modell}{14}{section*.23}%
+\contentsline {subsection}{\numberline {5.1.3}Voraussetzungen des Modells}{15}{subsection.5.1.3}%
+\contentsline {subsubsection}{Stationarität}{15}{section*.24}%
+\contentsline {subsection}{\numberline {5.1.4}Auswahl der Parameter}{15}{subsection.5.1.4}%
+\contentsline {subsubsection}{Autocorrelation Function ACF und Partial Autocorrelation Function PACF}{15}{section*.25}%
+\contentsline {subsection}{\numberline {5.1.5}Bewertung und Überarbeitung des Modells}{16}{subsection.5.1.5}%
+\contentsline {section}{\numberline {5.2}Hyperparameteroptimization}{16}{section.5.2}%
+\contentsline {subsubsection}{Heuristische Annäherung an passende Parameter}{16}{section*.26}%
+\contentsline {subsubsection}{Optuna}{16}{section*.27}%
+\contentsline {chapter}{\numberline {6}Methodik}{17}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Defining Modelling Objective}{17}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Datenvorverarbeitung}{17}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Vorverarbeitungsschritte}{17}{subsection.6.2.1}%
+\contentsline {subsubsection}{Unterteilung der Daten in Trainings und Testdaten}{18}{section*.28}%
+\contentsline {subsubsection}{Grundlagen der Datenbereinigung}{18}{section*.29}%
+\contentsline {section}{\numberline {6.3}Auswertungsmethoden}{18}{section.6.3}%
+\contentsline {chapter}{\numberline {7}Results}{19}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Structure Learning}{19}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Auswertungskriterien}{19}{section.7.2}%
+\contentsline {chapter}{\numberline {8}Discussion}{20}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Preparation of Data}{20}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Structure Learning}{20}{section.8.2}%
+\contentsline {section}{\numberline {8.3}Auswertungskriterien}{20}{section.8.3}%
+\contentsline {chapter}{\numberline {9}Limitations}{21}{chapter.9}%
+\contentsline {chapter}{\numberline {10}Conclusion}{22}{chapter.10}%
+\contentsline {section}{Bibliography}{23}{chapter*.30}%
 \contentsline {chapter}{\numberline {A}Appendix}{I}{appendix.A}%

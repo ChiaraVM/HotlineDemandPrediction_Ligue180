@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.10.17)  6 JAN 2025 17:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.10.17)  8 JAN 2025 17:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -941,12 +941,12 @@ LaTeX Warning: Float too large for page by 54.7045pt on input line 204.
 [3
 
 ]
-<screenshot001.png, id=351, 499.8675pt x 413.29407pt>
+<screenshot001.png, id=376, 499.8675pt x 413.29407pt>
 File: screenshot001.png Graphic file (type png)
 <use screenshot001.png>
 Package pdftex.def Info: screenshot001.png  used on input line 221.
 (pdftex.def)             Requested size: 318.66948pt x 263.48566pt.
-<screenshot003.png, id=353, 1785.67125pt x 330.48468pt>
+<screenshot003.png, id=378, 1785.67125pt x 330.48468pt>
 File: screenshot003.png Graphic file (type png)
 <use screenshot003.png>
 Package pdftex.def Info: screenshot003.png  used on input line 247.
@@ -961,7 +961,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [4 <./screenshot001.png>]
-<screenshot002.png, id=363, 1792.44656pt x 352.31625pt>
+<screenshot002.png, id=388, 1792.44656pt x 352.31625pt>
 File: screenshot002.png Graphic file (type png)
 <use screenshot002.png>
 Package pdftex.def Info: screenshot002.png  used on input line 258.
@@ -1061,9 +1061,24 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [12]
 Kapitel 5.
+
+Underfull \hbox (badness 10000) in paragraph at lines 383--384
+
+ []
+
 [13
 
 ]
+Overfull \hbox (29.26498pt too wide) in paragraph at lines 390--391
+\T1/aer/m/n/12 dern die ver-gan-ge-nen Vor-her-sa-ge-feh-ler mit-hil-fe des gle
+i-ten-den Durch-schnits (Mo-ving Average)[[],
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 390--391
+
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1073,11 +1088,29 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [14]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[15]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[16]
 Kapitel 6.
-[15
+[17
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 414--417
+Underfull \hbox (badness 10000) in paragraph at lines 471--474
 
  []
 
@@ -1089,23 +1122,23 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[16]
+[18]
 Kapitel 7.
-[17
-
-]
-Kapitel 8.
-[18
-
-]
-Kapitel 9.
 [19
 
 ]
-Kapitel 10.
+Kapitel 8.
 [20
 
-] (Masterarbeit_Latex.bbl [21
+]
+Kapitel 9.
+[21
+
+]
+Kapitel 10.
+[22
+
+] (Masterarbeit_Latex.bbl [23
 
 
 ]
@@ -1114,7 +1147,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--15
 +Machine + Learning + Data +
  []
 
-[22
+[24
 
 ])
 
@@ -1125,7 +1158,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[23]
+[25]
 Anhang A.
 [1
 
@@ -1134,7 +1167,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.II}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.466 \end{document}
+l.523 \end{document}
                      [2
 
 ] (Masterarbeit_Latex.aux)
@@ -1147,16 +1180,16 @@ L3 programming layer <2023-10-10>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `Masterarbeit_Latex.out' has not changed.
-(rerunfilecheck)             Checksum: E5CD2405292519354D25809F8BB04D0C;7154.
+(rerunfilecheck)             Checksum: 7E9872CAD9548995F8375EAC0950DFAA;8134.
  ) 
 Here is how much of TeX's memory you used:
- 23536 strings out of 474823
- 441349 string characters out of 5748595
+ 23566 strings out of 474823
+ 441799 string characters out of 5748595
  1949043 words of memory out of 5000000
- 44882 multiletter control sequences out of 15000+600000
+ 44891 multiletter control sequences out of 15000+600000
  611124 words of font info for 126 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,11n,107p,944b,769s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 108i,11n,107p,944b,751s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\ChiaraVogt\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600
 \tcrm1200.pk><C:/Users/ChiaraVogt/AppData/Local/Programs/MiKTeX/fonts/type1/pub
 lic/amsfonts/cm/cmb10.pfb><C:/Users/ChiaraVogt/AppData/Local/Programs/MiKTeX/fo
@@ -1181,9 +1214,9 @@ rs/ChiaraVogt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti
 8.pfb><C:/Users/ChiaraVogt/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
 fonts/cm/cmtt10.pfb><C:/Users/ChiaraVogt/AppData/Local/Programs/MiKTeX/fonts/ty
 pe1/public/amsfonts/cm/cmtt12.pfb>
-Output written on Masterarbeit_Latex.pdf (36 pages, 546451 bytes).
+Output written on Masterarbeit_Latex.pdf (38 pages, 564728 bytes).
 PDF statistics:
- 630 PDF objects out of 1000 (max. 8388607)
- 125 named destinations out of 1000 (max. 500000)
- 404 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 693 PDF objects out of 1000 (max. 8388607)
+ 146 named destinations out of 1000 (max. 500000)
+ 444 words of extra memory for PDF output out of 10000 (max. 10000000)
 
