@@ -3,6 +3,17 @@
 \@nameuse{bbl@beforestart}
 \catcode `"\active 
 \providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyperFirstAtBeginDocument{\AtBeginDocument}
+\HyperFirstAtBeginDocument{\ifx\hyper@anchor\@undefined
+\global\let\oldnewlabel\newlabel
+\gdef\newlabel#1#2{\newlabelxx{#1}#2}
+\gdef\newlabelxx#1#2#3#4#5#6{\oldnewlabel{#1}{{#2}{#3}}}
+\AtEndDocument{\ifx\hyper@anchor\@undefined
+\let\newlabel\oldnewlabel
+\fi}
+\fi}
+\global\let\hyper@last\relax 
+\gdef\HyperFirstAtBeginDocument#1{#1}
 \providecommand\HyField@AuxAddToFields[1]{}
 \providecommand\HyField@AuxAddToCoFields[2]{}
 \AC@reset@newl@bel
@@ -98,60 +109,87 @@
 \@writefile{toc}{\contentsline {subsubsection}{Timeliness}{12}{section*.16}\protected@file@percent }
 \citation{Montgomery.2015}
 \citation{Montgomery.2015}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.1}Data Collection and Cleaning}{11}{subsection.4.3.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{Accuracy}{11}{section*.15}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{Timeliness}{11}{section*.16}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{Completeness}{11}{section*.17}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{Representativeness}{11}{section*.18}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{Consistency}{11}{section*.19}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.2}Data Analysis}{11}{subsection.4.3.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.3}Modellvergleich}{12}{subsection.4.3.3}\protected@file@percent }
-\citation{Brownlee.2020}
-\citation{Brownlee.2020}
-\citation{Brownlee.2020}
-\citation{Brownlee.2020}
-\citation{Brownlee.2020}
-\citation{Brownlee.2020}
-\citation{Brownlee.2020}
-\citation{Brownlee.2020}
-\citation{Brownlee.2020}
-\citation{Brownlee.2020}
-\@writefile{toc}{\contentsline {chapter}{\numberline {5}Methodik}{13}{chapter.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{Completeness}{13}{section*.17}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{Representativeness}{13}{section*.18}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{Consistency}{13}{section*.19}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.2}Data Analysis}{13}{subsection.4.4.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{\numberline {5}Vergleich der Zeitreihenvorhersagemodelle}{14}{chapter.5}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {5.1}Defining Modelling Objective}{13}{section.5.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {5.2}Datenvorverarbeitung}{13}{section.5.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.1}Vorverarbeitungsschritte}{13}{subsection.5.2.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5.1}SARIMA Modell}{14}{section.5.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.1}Anwendungsbereich}{14}{subsection.5.1.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.2}Bestandteile des Modells}{14}{subsection.5.1.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{Autoregressives Modell}{14}{section*.20}\protected@file@percent }
+\citation{Hyndman.May2018}
+\citation{Hyndman.May2018}
+\citation{Hyndman.May2018}
+\citation{Hyndman.May2018}
+\@writefile{toc}{\contentsline {subsubsection}{Moving Average Modell}{15}{section*.21}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{Non-Seasonal ARIMA Modell}{15}{section*.22}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{Seasonal ARIMA Modell}{15}{section*.23}\protected@file@percent }
+\citation{Vogel.2015}
+\citation{Vogel.2015}
+\citation{Vogel.2015}
+\citation{Vogel.2015}
+\citation{Hyndman.May2018}
+\citation{Hyndman.May2018}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.3}Voraussetzungen des Modells}{16}{subsection.5.1.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{Stationarität}{16}{section*.24}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.4}Auswahl der Parameter}{16}{subsection.5.1.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{Autocorrelation Function ACF und Partial Autocorrelation Function PACF}{16}{section*.25}\protected@file@percent }
+\citation{Vogel.2015}
+\citation{Vogel.2015}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.5}Bewertung und Überarbeitung des Modells}{17}{subsection.5.1.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5.2}Hyperparameteroptimization}{17}{section.5.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{Heuristische Annäherung an passende Parameter}{17}{section*.26}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{Optuna}{17}{section*.27}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.1}GARCH-Modell}{17}{subsection.5.2.1}\protected@file@percent }
+\citation{Brownlee.2020}
+\citation{Brownlee.2020}
+\citation{Brownlee.2020}
+\citation{Brownlee.2020}
+\citation{Brownlee.2020}
+\citation{Brownlee.2020}
+\citation{Brownlee.2020}
+\citation{Brownlee.2020}
+\citation{Brownlee.2020}
+\citation{Brownlee.2020}
+\@writefile{toc}{\contentsline {chapter}{\numberline {6}Methodik}{18}{chapter.6}\protected@file@percent }
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\@writefile{toc}{\contentsline {section}{\numberline {6.1}Defining Modelling Objective}{18}{section.6.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {6.2}Datenvorverarbeitung}{18}{section.6.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.2.1}Vorverarbeitungsschritte}{18}{subsection.6.2.1}\protected@file@percent }
 \citation{Zheng.2018}
 \citation{Brownlee.2020}
 \citation{Brownlee.2020}
 \citation{Brownlee.2020}
-\@writefile{toc}{\contentsline {subsubsection}{Unterteilung der Daten in Trainings und Testdaten}{14}{section*.20}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{Grundlagen der Datenbereinigung}{14}{section*.21}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {5.3}Auswertungsmethoden}{14}{section.5.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {chapter}{\numberline {6}Results}{15}{chapter.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{Unterteilung der Daten in Trainings und Testdaten}{19}{section*.28}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{Grundlagen der Datenbereinigung}{19}{section*.29}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {6.3}Auswertungsmethoden}{19}{section.6.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{\numberline {7}Results}{20}{chapter.7}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {6.1}Structure Learning}{15}{section.6.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {6.2}Auswertungskriterien}{15}{section.6.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {chapter}{\numberline {7}Discussion}{16}{chapter.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {7.1}Structure Learning}{20}{section.7.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {7.2}Auswertungskriterien}{20}{section.7.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{\numberline {8}Discussion}{21}{chapter.8}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {7.1}Preparation of Data}{16}{section.7.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {7.2}Structure Learning}{16}{section.7.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {7.3}Auswertungskriterien}{16}{section.7.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {chapter}{\numberline {8}Limitations}{17}{chapter.8}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {8.1}Preparation of Data}{21}{section.8.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {8.2}Structure Learning}{21}{section.8.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {8.3}Auswertungskriterien}{21}{section.8.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{\numberline {9}Limitations}{22}{chapter.9}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {chapter}{\numberline {9}Conclusion}{18}{chapter.9}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{\numberline {10}Conclusion}{23}{chapter.10}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \bibstyle{abbrvdin}
 \bibdata{Literatur}
-\@writefile{toc}{\contentsline {section}{Bibliography}{19}{chapter*.22}\protected@file@percent }
-\bibcite{Atwan.2022}{1}
-\bibcite{Brownlee.2020}{2}
-\bibcite{Ege.2021b}{3}
+\@writefile{toc}{\contentsline {section}{Bibliography}{24}{chapter*.30}\protected@file@percent }
+\bibcite{Brownlee.2020}{1}
+\bibcite{Ege.2021b}{2}
+\bibcite{Hyndman.May2018}{3}
 \bibcite{BalancoLigue180.2020}{4}
 \bibcite{Montgomery.2015}{5}
 \bibcite{BalancoLigue180.2015}{6}
@@ -161,4 +199,4 @@
 \@writefile{toc}{\contentsline {chapter}{\numberline {A}Appendix}{I}{appendix.A}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\gdef \@abspage@last{33}
+\gdef \@abspage@last{39}

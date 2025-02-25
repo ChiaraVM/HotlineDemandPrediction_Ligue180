@@ -479,6 +479,9 @@
 	Fast alle Vorhersagemethoden braucht von außen festgelegte Parameter, um geeignete Vorhersagen zu modellieren. Diese festgelegten Parameter sind Hyperparameter. Um die zu finden, können verschiedene Methoden der Hyperparameteroptimierung angewendet werden. Klassischerweise wird dafür die Gittersuche (Gridsearch), die zufällige Suche (Random Search), die bayesische Optimierung oder durch Expertise und heuristische Annäherung händisch ausgewählte Parameter. 
 	\subsubsection{Heuristische Annäherung an passende Parameter}
 	\subsubsection{Optuna}
+	\subsection{GARCH-Modell}
+	Zeitreihen, die durch eine hohe Volatilität gekennzeichnet sind, können nur bedingt durch das SARIMA-Modell dargestellt werden. Die Erweiterung auf ein GARCH-Modell bietet die Möglichkeit die Schwankungen durch Volatilität abzubilden \cite[S. 148]{Vogel.2015}. \\
+	Volatilität bezeichnet die Standardabweichung; diese kann Muster in der Zeitreihe in Form von Volatilitätsclustern  zeigen \cite[S. 145]{Vogel.2015}.
 	
 	\chapter{Methodik} %TODO jemand hat das Unterteilt in Entwurf, Implementierung und Evaluierung
 	\section{Defining Modelling Objective}
